@@ -50,7 +50,7 @@ const Login = () => {
                   </div>
                   <a
                     href="#!"
-                    className="text-red-600 hover:text-red-700 focus:text-red-700 active:text-red-800 duration-200 transition ease-in-out"
+                    className="text-red-600 hover:text-red-800 focus:text-red-700 active:text-red-800 duration-200 transition ease-in-out"
                   >
                     Forgot password?
                   </a>
@@ -58,14 +58,14 @@ const Login = () => {
 
                 <button
                   type="submit"
-                  className="inline-block px-7 py-3 bg-green-600 text-white font-medium text-sm leading-snug uppercase shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                  className="inline-block px-7 py-3 bg-purple-700 text-white font-medium text-sm leading-snug uppercase shadow-md hover:bg-purple-800 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
                   Sign in
                 </button>
 
-                <p className="text-green-500 text-center pt-4 cursor-pointer">
+                <p className="text-purple-500 text-center pt-4 cursor-pointer">
                   Do not have a account! please register
                 </p>
 

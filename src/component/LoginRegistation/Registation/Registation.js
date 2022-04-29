@@ -64,14 +64,14 @@ const Registaion = () => {
 
                 <button
                   type="submit"
-                  className="inline-block px-7 py-3 bg-green-600 text-white font-medium text-sm leading-snug uppercase shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                  className="inline-block px-7 py-3 bg-purple-600 text-white font-medium text-sm leading-snug uppercase shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
                   Sign in
                 </button>
 
-                <p className="text-green-500 text-center pt-4 cursor-pointer">
+                <p className="text-purple-500 text-center pt-4 cursor-pointer">
                   Already have a account! Please Register
                 </p>
 
