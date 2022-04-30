@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Button from "../Button";
 
 const Navbar = () => {
@@ -7,6 +8,7 @@ const Navbar = () => {
     { name: "SERVICE", link: "/" },
     { name: "ABOUT", link: "/" },
     { name: "BLOG'S", link: "/" },
+
     { name: "CONTACT", link: "/" },
   ];
   let [open, setOpen] = useState(false);
@@ -18,9 +20,14 @@ const Navbar = () => {
       text-gray-800"
         >
           <span className="text-3xl text-indigo-600 mr-1 pt-2">
-            <ion-icon name="logo-ionic"></ion-icon>
+            <Link to="/" className="text-purple-600 flex items-center">
+              <ion-icon
+                name="logo-ionic"
+                className="text-purple-600"
+              ></ion-icon>
+              LOGIKA
+            </Link>
           </span>
-          Designer
         </div>
 
         <div
@@ -37,17 +44,21 @@ const Navbar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-20 text-x md:my-0 my-7">
-              <a
-                href={link.link}
+              <Link
+                to={link.link}
                 className="text-gray-800 hover:text-gray-400 duration-500 font-bold"
               >
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
-        <Button>Loign</Button>
-        <Button>Register</Button>
+        <Link to="login">
+          <Button>Loign</Button>
+        </Link>
+        <Link to="registation">
+          <Button>Register</Button>
+        </Link>
       </div>
     </div>
   );

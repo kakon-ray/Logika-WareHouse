@@ -1,9 +1,11 @@
 import React from "react";
+import PageBanner from "../../PageBanner/PageBanner";
 
 const Login = () => {
   return (
     <div className="container mx-auto md:px:20">
-      <h1 className="text-center text-2xl">Sign in your Account</h1>
+      <PageBanner page="Login in your Account" />
+
       <section className="h-screen">
         <div className="container px-6 py-12 h-full">
           <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">

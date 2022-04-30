@@ -12,22 +12,6 @@ const Footer = () => {
             kasd gubergren, no sea takimata sanctus est lorem ipsum dolor sit
             amet.
           </p>
-
-          <div className="flex sm:justify-center space-x-1 mt-5 flex-wrap">
-            {[
-              ["Facebook", "/dashboard"],
-              ["Twter", "/team"],
-
-              ["Linkdin", "/reports"],
-            ].map(([title, url]) => (
-              <a
-                href={url}
-                className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900"
-              >
-                {title}
-              </a>
-            ))}
-          </div>
         </div>
         <div>
           <h2 className="text-xl font-semibold py-3">QUICK LINK</h2>

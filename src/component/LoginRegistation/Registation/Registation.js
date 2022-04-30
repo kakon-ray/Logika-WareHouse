@@ -1,9 +1,10 @@
 import React from "react";
+import PageBanner from "../../PageBanner/PageBanner";
 
 const Registaion = () => {
   return (
     <div className="container mx-auto md:px:20">
-      <h1 className="text-center text-2xl">Create Your Account</h1>
+      <PageBanner page="Registation in your Account" />
       <section className="h-screen">
         <div className="container px-6 py-12 h-full">
           <div className="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
